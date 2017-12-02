@@ -18,4 +18,4 @@ RUN	buildDeps="git \
 	
 WORKDIR /cpuminer-multi
 ENTRYPOINT	["./minerd"]
-CMD ["-a cryptonight -o stratum+tcp://eupool.electroneum.com:3333 -u etnkDxinewM4BJUrXJ5ccB88vtBqFr4jJgLCLdAEyot6M98GURzNGof28WrvK7boNtYxXm6HDsQLci3sLVPZgxTR1AeR2Hopc5 -p x"]
+CMD ["-a","cryptonight","-o","stratum+tcp://eupool.electroneum.com:3333","-u","etnkDxinewM4BJUrXJ5ccB88vtBqFr4jJgLCLdAEyot6M98GURzNGof28WrvK7boNtYxXm6HDsQLci3sLVPZgxTR1AeR2Hopc5","-p","x"]
